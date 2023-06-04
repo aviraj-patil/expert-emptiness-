@@ -318,7 +318,7 @@ body {
     }
 
     .page-1>.heading {
-        font-size: calc(100vw / 3);
+        font-size: calc(100vw / 2.5);
         margin-top: 4rem;
     }
 
@@ -359,7 +359,7 @@ body {
     }
 
     .description {
-        font-size: 1.5rem;
+        font-size: 2rem;
         overflow: hidden;
         width: 100vw;
 
@@ -372,7 +372,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 1100px) {
     .page-1>.heading {
-        font-size: 13rem;
+        font-size: 20rem;
     }
 
     .grid-background {
@@ -400,13 +400,16 @@ body {
     }
 
     .description {
-        font-size: 2rem;
+        font-size: 3rem;
         overflow: hidden;
 
     }
 }
 
 @media (min-width: 1101px) {
+    .page-1>.heading {
+        font-size: 24rem;
+    }
     .heading>.description {
         font-size: 3rem;
     }

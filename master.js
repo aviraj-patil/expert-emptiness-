@@ -32,21 +32,19 @@ function menus(){
     m1.innerHTML = "BACK";
     m2.innerHTML = "BACK";
     document.body.style.overflowY = "hidden";
-    b.style.transitionDuration = ".5s";
-    b.style.transitionTimingFunction = "cubic-bezier(0,.8,.13,1.01)";
     b.style.top = "0%";
-    console.log(f);
+    // console.log(f);
     f=1;
   }
   else {
+    // b.style.transitionDuration = ".5s";
+    // b.style.transitionTimingFunction = "cubic-bezier(0,.8,.13,1.01)";
     b.style.zIndex = "-5";
     b.style.top = "100%";
     m1.innerHTML = "MENU";
     m2.innerHTML = "MENU";
     document.body.style.overflowY = "visible";
-    b.style.transitionDuration = ".5s";
-    b.style.transitionTimingFunction = "cubic-bezier(0,.8,.13,1.01)";
-    console.log(f);
+    // console.log(f);
     f=0;
   }
 }

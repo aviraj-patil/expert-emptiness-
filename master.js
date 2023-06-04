@@ -1,15 +1,15 @@
-var c = document.getElementById("cursor");
-var element = document.getElementById('body');
+// var c = document.getElementById("cursor");
+// var element = document.getElementById('body');
 
-element.addEventListener('mousemove', handleMouseMove);
+// element.addEventListener('mousemove', handleMouseMove);
 
-function handleMouseMove(event) {
-  var mouseX = event.clientX;
-  var mouseY = event.clientY;
-  mouseY += window.pageYOffset;
-  c.style.left = mouseX + "px";
-  c.style.top = mouseY + "px";
-}
+// function handleMouseMove(event) {
+//   var mouseX = event.clientX;
+//   var mouseY = event.clientY;
+//   mouseY += window.pageYOffset;
+//   c.style.left = mouseX + "px";
+//   c.style.top = mouseY + "px";
+// }
 
 
 // var myDiv = document.getElementById('cursor-focus');
